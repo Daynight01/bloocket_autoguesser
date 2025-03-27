@@ -22,10 +22,7 @@ time.sleep(3)
 a4=mouse.get_position()
 print(a4)
 
-print("continue")
-time.sleep(3)
-cont=mouse.get_position()
-print(cont)
+
 
 print("starting")
 time.sleep(3)
@@ -43,8 +40,6 @@ while True:
     else:
         mouse.drag(a4[0],a4[1],a4[0],a4[1])
         mouse.click()
-
-    mouse.drag(cont[0],cont[1],cont[0],cont[1])
-    mouse.click()
+    
 
 #mouse.drag(0,0,)
